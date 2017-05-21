@@ -161,6 +161,35 @@ h3 {
     
 }
 
+.form p {
+   
+    margin-top: 20px;
+}
+
+input.text {
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+input.radio {
+
+}
+
+.nav {
+    position: fixed;
+    right: 20px;
+    top: 10px;
+    z-index: 10;
+}
+.nav .knapp{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+  
+
 /*----------------------------------------------------------------------------------------
 									@MEDIA
 ----------------------------------------------------------------------------------------*/

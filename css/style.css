@@ -42,6 +42,10 @@ P, B, label{
     line-height: 28px;
 }
 
+B {
+    font-weight: 700;
+}
+
 label {
     font-size: 16px;
 }
@@ -79,6 +83,7 @@ h2 {
     margin-top: 50px;
     color: white;
     text-shadow: #004750 4px 4px 0px;
+    line-height: 50px;
 }
 
 h3 {
@@ -209,14 +214,14 @@ input[type="checkbox"]{
  -moz-transform: scale(1.5); /* FF */
  -webkit-transform: scale(1.5); /* Safari and Chrome */
  -o-transform: scale(1.5); /* Opera */
-  margin: 10px 10px 0 0 ;
+  margin: 10px 10px 0 4px;
 }
 input[type="radio"]{
 -ms-transform: scale(1.5); /* IE */
  -moz-transform: scale(1.5); /* FF */
  -webkit-transform: scale(1.5); /* Safari and Chrome */
  -o-transform: scale(1.5); /* Opera */
-  margin: 10px 10px 0 0 ;
+  margin: 10px 10px 0 4px ;
 }
 
 

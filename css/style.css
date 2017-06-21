@@ -36,7 +36,7 @@ ul {
 P, B, label{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     color: #4b4b4b; 
     text-align: baseline;
     line-height: 28px;
@@ -137,18 +137,14 @@ h3 {
     background-position: center;
     background-size: cover; 
     background-repeat: no-repeat;
-    
 }
 
 #number2 {
     min-height: 100vh;
-
-
 }
-#number3 {
-    min-height: 100vh;
 
-  
+#number3 {
+    min-height: 100vh;  
 }
 
 .text-box {
@@ -202,6 +198,27 @@ input[type=text], select {
 input[type=text]:focus {
    
 }
+
+.form > label {
+    display: block;
+}
+
+
+input[type="checkbox"]{
+-ms-transform: scale(1.5); /* IE */
+ -moz-transform: scale(1.5); /* FF */
+ -webkit-transform: scale(1.5); /* Safari and Chrome */
+ -o-transform: scale(1.5); /* Opera */
+  margin: 10px 10px 0 0 ;
+}
+input[type="radio"]{
+-ms-transform: scale(1.5); /* IE */
+ -moz-transform: scale(1.5); /* FF */
+ -webkit-transform: scale(1.5); /* Safari and Chrome */
+ -o-transform: scale(1.5); /* Opera */
+  margin: 10px 10px 0 0 ;
+}
+
 
 textarea {
     width: 100%;

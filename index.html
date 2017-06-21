@@ -23,7 +23,7 @@
     
   <body>
       <div class="nav">
-        <a href="#number2" data-spy="scroll" data-target="#number2" ><div class="knapp">OSA</div></a>
+        <a href="#number2" data-spy="scroll" data-target="#osa" ><div class="knapp">OSA</div></a>
       </div>      
         <section id="number1">
             <div class="container">
@@ -71,19 +71,21 @@
                     <div class="text-box">
                         <h3>Hur?</h3>
                         
-                        <h4>🤵 Klädsel</h4>
+                        <h4>👗 Klädsel</h4>
                         <p>Kavaj</p>
                         <br>
                         <h4>🍔 Mat</h4>
                         <p>Vi kommer bjuda på vegansk pubmat, har ni några allergier så anmäl dem i nedanstående formulär.</p><br>    
                         <h4>🎤 Tal</h4>
-                        <p>Vill man hålla ett tal eller framföra något, som musik eller dylikt, kontakta toastmastrarna. Det finns PA och mickar.</p><br>
+                        <p>Vill man hålla ett tal eller dylikt fyll i det i OSA-formuläret så blir du kontaktad.</p><br>
                         <h4>🎁 Present</h4>
-                        <p>Vi vill främst att ni kommer och firar den här dagen med oss, men om ni vill ge oss en present så ge oss något som ni tycker att vi behöver. Om ni inte vet vad vi behöver men ändå vill ge oss en present så kan ni skänka ett bidrag till vår bröllopsresa. Kontonummer 5287 02 995 83</p>
+                        <p>Vi vill främst att ni kommer och firar den här dagen med oss, men om ni vill ge oss en present så ge oss något som ni tycker att vi behöver. 
+                        <br><br>
+                        Om ni inte vet vad vi behöver men ändå vill ge oss en present så kan ni skänka ett bidrag till vår bröllopsresa. Kontonummer 5287 02 995 83</p>
                         
                     </div>
                 </div>
-                        <div class="col-xs-12 col-md-4 col-lg-4">
+                        <div id="osa" class="col-xs-12 col-md-4 col-lg-4">
                             <div class="text-box">
                                 <form class="form" action="https://formspree.io/sydow.andre@gmail.com" method="POST">
                                     <h3>OSA</h3>
@@ -95,12 +97,14 @@
                                     <br><br>
                                     <h4>Vilka delar kan du vara med på?</h4>
                                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small><br><br>
-                                    <input type="checkbox" name="vehicle" value="Allt"> Hela Kalaset!
-                                    <input type="checkbox" name="vehicle" value="Vigsel"> Vigseln
-                                    <input type="checkbox" name="vehicle" value="Middag"> Middagen
-                                    <input type="checkbox" name="vehicle" value="Middag"> Kvällen
-                                    <input type="checkbox" name="vehicle" value="Middag"> Jag kan inte alls 😢
-                                    <br><br>
+                                    
+                                    <label><input type="checkbox" name="vehicle" value="Allt"> Hela Kalaset!</label>
+                                    <label><input type="checkbox" name="vehicle" value="Vigsel"> Vigseln</label>
+                                    <label><input type="checkbox" name="vehicle" value="Middag"> Middagen</label>
+                                    <label><input type="checkbox" name="vehicle" value="Middag"> Kvällen</label>
+                                    <label><input type="checkbox" name="vehicle" value="Middag"> Jag kan inte alls 😢</label>
+                                   
+                                    <br>
                                     <h4>Ska du hålla tal eller hitta på något annat kul?</h4>
                                     <input type="radio" name="tal" value="Nej" checked required> Nej
                                     <input type="radio" name="tal" value="Ja"> Ja

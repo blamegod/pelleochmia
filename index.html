@@ -23,7 +23,7 @@
     
   <body>
       <div class="nav">
-        <a href="#number2" data-spy="scroll" data-target="#osa" ><div class="knapp">OSA</div></a>
+        <a href="#number2" data-spy="scroll" data-target="#osa" ><div class="knapp">&darr;</div></a>
       </div>      
         <section id="number1">
             <div class="container">
@@ -52,16 +52,25 @@
             <div class="row">
                 <div class="col-xs-12 col-md-4 col-lg-4">
                     <div class="text-box">
-                        <h3>När?</h3>
-                        <p>🕐 Lördag 23 september 2017. Vigsel sker kl 16:00 på båten. </p>
-                        <h3>Var?</h3>
-                        <h4>💍 Cermoni</h4><p>
-                        Af chapman (Båten alltså) <a href="https://www.google.se/maps/place/Flaggmansv%C3%A4gen+8,+111+49+Stockholm/@59.3252019,18.0789439,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9d57d2e416ef:0xdc7ffe92d97cd79d!8m2!3d59.3251992!4d18.0811326">Flaggmansvägen 8, 111 49 Stockholm</a>
+                        <h3>När &#38; Var?</h3>
+                        <h4>🗓️ Datum</h4><p>Lördag 23:e september 2017. </p>
+                        <br>
+                        <h4>💍 Vigsel (16:00)</h4><p>
+                        <a href="https://www.google.se/maps/place/Flaggmansv%C3%A4gen+8,+111+49+Stockholm/@59.3252019,18.0789439,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9d57d2e416ef:0xdc7ffe92d97cd79d!8m2!3d59.3251992!4d18.0811326"><b>Af chapman</b> (Båten alltså) <br>Flaggmansvägen 8, 111 49 Stockholm</a>
                         </p>
                         <br>
-                        <h4>💃 Middag och fest</h4><p>
-                        Restaurang Salt, <a href="https://www.google.se/maps/place/Restaurang+Salt/@59.3294352,18.0390854,17z/data=!3m1!4b1!4m5!3m4!1s0x465f77d86c42300d:0x646e2ccf9d3cc77e!8m2!3d59.3294325!4d18.0412741">Hantverkargatan 34<br>112 21 Stockholm </a>
+                        <h4>🍾 Bubbel (18:00)</h4><p>
+                        <a href="https://www.google.se/maps/place/Restaurang+Salt/@59.3294352,18.0390854,17z/data=!3m1!4b1!4m5!3m4!1s0x465f77d86c42300d:0x646e2ccf9d3cc77e!8m2!3d59.3294325!4d18.0412741"><b>Restaurang Salt </b> <br>Hantverkargatan 34, 112 21 Stockholm </a>
                         </p>
+                        <br>
+                        <h4>🍔 Middag (19:30)</h4>
+                        <br>
+                        <h4>🎂 Tårta (21:00)</h4>
+                        <br>
+                        <h4>🍺 Pub (21:05)</h4>
+                        <br>
+                        <h4>🌭 Vickning (24:00)</h4>
+                        
                         <!--
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2035.4630250413188!2d18.078886215752206!3d59.325223118394334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f77fd878144f3%3A0x490ca61e615d4868!2sSTF+Vandrarhem+af+Chapman+%26+Skeppsholmen!5e0!3m2!1ssv!2sse!4v1491661683623" width="100%" height="200px" frameborder="0" style="border:0" allowfullscreen></iframe>
                         -->
@@ -72,7 +81,7 @@
                         <h3>Hur?</h3>
                         
                         <h4>👗 Klädsel</h4>
-                        <p><a href="http://lmgtfy.com/?q=kl%C3%A4dkod+kavaj">Kavaj</p>
+                        <p><a href="http://lmgtfy.com/?q=kl%C3%A4dkod+kavaj">Kavaj</a></p>
                         <br>
                         <h4>🍔 Mat</h4>
                         <p>Vi kommer bjuda på vegansk pubmat, har ni några allergier så anmäl dem i nedanstående formulär.</p><br>    
@@ -92,21 +101,22 @@
                             <div class="text-box">
                                 <form class="form" action="https://formspree.io/pelleochmia@gmail.com" method="POST">
                                     <h3>OSA</h3>
+                                    <h5>Senast 15:e augusti!</h5>
                                     <h4>Vad heter du?</h4>
                                     <input class="text" type="text" name="Namn" placeholder="Skriv ditt för och efternamn..." required>
                                     <br><br>
                                     <h4>+1? Vad heter den? </h4>
-                                    <input class="text" type="text" name="Namn" placeholder="Skriv för och efternamn..." required>
+                                    <input class="text" type="text" name="Plus_en" placeholder="Skriv för och efternamn..." required>
                                     <br><br>
                                     <h4>Tar du med dig barn?</h4>
                                     Barn: <input type="number" name="quantity" min="0" max="5" placeholder="0">
                                     <br><br>
                                     <h4>Vilka delar vill du/ni vara med på?</h4>
-                                    <label><input type="checkbox" name="vehicle" value="Allt"> 😍 Hela Kalaset! </label>
-                                    <label><input type="checkbox" name="vehicle" value="Vigsel"> 😁 Vigseln</label>
-                                    <label><input type="checkbox" name="vehicle" value="Middag"> 🙂 Middagen</label>
-                                    <label><input type="checkbox" name="vehicle" value="Kväll"> 😐 Kvällen</label>
-                                    <label><input type="checkbox" name="vehicle" value="Kommer ej"> 😢 Jag kan inte alls </label>
+                                    <label><input type="checkbox" name="Närvaro" value="Allt"> 😍 Hela Kalaset! </label>
+                                    <label><input type="checkbox" name="Närvaro" value="Vigsel"> 😁 Vigseln</label>
+                                    <label><input type="checkbox" name="Närvaro" value="Middag"> 🙂 Middagen</label>
+                                    <label><input type="checkbox" name="Närvaro" value="Kväll"> 😐 Kvällen</label>
+                                    <label><input type="checkbox" name="Närvaro" value="Kommer ej"> 😢 Jag kan inte alls </label>
                                     <br>
                                     <h4>Ska du hålla tal eller hitta på något annat kul?</h4>
                                     <input type="radio" name="tal" value="Nej" checked required> Nej

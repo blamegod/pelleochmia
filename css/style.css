@@ -63,6 +63,17 @@ h4 {
     color: #003339;
     
 }
+.success {
+    
+    display: inline-block;
+    width: 100%;
+    height: 30vh;
+    margin: auto;
+    margin-top: 30vh;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    
+}
 
 a {
     text-decoration:none;
@@ -101,6 +112,7 @@ h5 {
     margin-bottom: 10px;
     color: #ff0000;
 }
+
 
 .clearfix {
     margin: 20px;
